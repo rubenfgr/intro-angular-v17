@@ -1,0 +1,111 @@
+<h1>Deferrable Views</h1>
+
+@defer(on hover) {
+    <h2>&#64;defer(on hover)</h2>
+    <app-deferrable-item trigger='on hover'></app-deferrable-item>
+} @placeholder {
+    <h2>Placeholder</h2>
+}
+
+<br />
+<mat-divider></mat-divider>
+
+@defer(when isCheckedDefer()) {
+<h2>&#64;defer(when isCheckedDefer())</h2>
+<app-deferrable-item trigger='when isCheckedDefer()'></app-deferrable-item>
+} @placeholder {
+<h2>Placeholder</h2>
+} @error {
+<h2>Error</h2>
+} @loading (minimum 1s) {
+    <h2>Loading</h2>
+}
+
+<br />
+<mat-divider></mat-divider>
+
+@defer(on interaction) {
+<h2>&#64;defer(on interaction)</h2>
+<app-deferrable-item trigger='on interaction'></app-deferrable-item>
+} @placeholder {
+<h2>Placeholder</h2>
+}
+
+<br />
+<mat-divider></mat-divider>
+
+@defer(on timer(2000ms)) {
+<h2>&#64;defer(on timer(2000ms))</h2>
+<app-deferrable-item trigger='on timer(2000ms)'></app-deferrable-item>
+} @placeholder {
+<h2>Placeholder</h2>
+}
+
+<br />
+<mat-divider></mat-divider>
+
+@defer(on immediate) {
+<h2>&#64;defer(on immediate)</h2>
+<app-deferrable-item trigger='on immediate'></app-deferrable-item>
+} @placeholder {
+<h2>Placeholder</h2>
+}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+<br />
+<mat-divider></mat-divider>
+
+@defer(on viewport) {
+<h2>&#64;defer(on viewport)</h2>
+<app-deferrable-item trigger='on viewport'></app-deferrable-item>
+} @placeholder {
+<h2>Placeholder</h2>
+}

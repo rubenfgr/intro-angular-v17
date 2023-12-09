@@ -1,0 +1,10 @@
+@defer {
+<div class="flex flex-wrap gap-4">
+  @for (image of images(); track image.id) {
+    <app-images-list-item [image]="image"></app-images-list-item>
+  }
+</div>
+}
+@placeholder {
+  <div>CARGANDO IMAGENES...</div>
+}

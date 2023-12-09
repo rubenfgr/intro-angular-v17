@@ -1,0 +1,9 @@
+<mat-card class="max-w-[33%]">
+    <mat-card-title class="bg-gray-500 p-4"> {{ title() }} </mat-card-title>
+    <mat-card-content class="bg-red-300">
+        <p class="p-4"> {{ content() }} </p>
+    </mat-card-content>
+    <mat-card-actions class="bg-gray-500">
+        <button mat-flat-button (click)="doAction()"> ACTION </button>
+    </mat-card-actions>
+</mat-card>
